@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* banner styles */
+
+.banner-header {
+    background-image: url(../images/banner/banner2.png);
+    background-position-x: unset;
+    background-size: cover;
+    background-position: 100%;
+    height: 809px;
+    padding-right: 200px;
+}
+
+.banner {
+    text-align: right;
+    padding-top: 216px;
+    padding-left: 850px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+
+}
+
+.banner-description {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #444343;
+}
+
+.banner-btn {
+    background: #F15B22;
+    border-radius: 5px;
+    border: none;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+/* previous history style */
+
+.previous-history {
+    display: flex;
+    align-items: center;
+    padding: 130px 300px;
+}
+
+.description-part {
+    text-align: left;
+    padding-left: 50px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.section-description {
+    margin-top: 24px;
+    margin-bottom: 18px;
+    color: #444343;
+}
+
+.section-list {
+    list-style: none;
+    text-indent: 0%;
+    color: #444343;
+}
+i{
+    border: 2px solid #16D887;
+    color: #16D887;
+    border: none;
+}
+
+/* my plan section styles */
+.my-plan {
+    text-align: center;
+}
+
+.plans-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.plan-list {
+    display: flex;
+    padding: 0 230px;
+    justify-content: space-evenly;
+}
+
+.plan-icon {
+    align-items: center;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 16px;
+
+}
+
+.plan-dexcription {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    margin-bottom: 130px;
+}
+
+/* gardient section styles */
+
+.gradient-area {
+    margin: 130px 230px;
+    background-image: url(../images/gradient2.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+   
+}
+
+.text-area {
+    padding: 59px 617px 59px 64px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.btn {
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    padding: 20px 36px;
+    text-align: center;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* footer section styles */
+.footer-section {
+    display: flex;
+    background: #151414;
+    padding: 130px 230px;
+    justify-content: space-between;
+}
+
+.footer-header {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
+.footer-description {
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.footer-email {
+    color: #FFFFFF;
+}
+
+.footer-phone {
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.contract {}
+
+.contract-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.user-email {
+    font-weight: 400;
+    font-size: 18px;
+    color: #F3F3F3;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 16px;
+}
+
+.subscribe-btn {
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    padding: 20px 30px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
